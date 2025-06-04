@@ -1,5 +1,8 @@
-.settings-container {
+.ecg-container {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -7,22 +10,22 @@
   margin-bottom: 20px;
 }
 
-.input {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-button {
+.button {
   background-color: #1890ff;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  margin: 5px;
+  width: 100px;
 }
 
-.saved-phone {
+canvas {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.tip {
   margin-top: 20px;
   font-size: 16px;
-  color: #333;
+  color: #666;
 }

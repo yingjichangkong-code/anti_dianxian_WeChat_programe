@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 20px;
 }
 
 .title {
@@ -16,10 +17,30 @@
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .status {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 18px;
   color: #666;
+}
+
+.bluetooth-button, .ecg-button, .location-button {
+  background-color: #52c41a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.bluetooth-status, .ecg-tip, .location-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+canvas {
+  margin-top: 10px;
+  border: 1px solid #ccc;
 }

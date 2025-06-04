@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/settings/settings"
+    "pages/settings/settings",
+    "pages/map/map",
+    "pages/ecg/ecg"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,6 +25,14 @@
       {
         "pagePath": "pages/settings/settings",
         "text": "设置"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/ecg/ecg",
+        "text": "心电图"
       }
     ]
   },

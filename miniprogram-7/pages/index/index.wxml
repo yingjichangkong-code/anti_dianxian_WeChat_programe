@@ -1,5 +1,20 @@
 <view class="container">
   <text class="title">抗癫痫报警</text>
+
+  <!-- 原有功能：触发异常 -->
   <button bindtap="triggerAlert" class="alert-button">触发异常</button>
   <text class="status">{{status}}</text>
+
+  <!-- 新功能 1：蓝牙配对 -->
+  <button bindtap="pairBluetooth" class="bluetooth-button">蓝牙配对</button>
+  <text class="bluetooth-status">{{bluetoothStatus}}</text>
+
+  <!-- 新功能 2：生理信号显示 -->
+  <button bindtap="showECG" class="ecg-button">生理信号显示</button>
+  <canvas canvas-id="ecgCanvas" style="width: 100%; height: 200px;" hidden="{{!showECGWave}}"></canvas>
+  <text class="ecg-tip">{{ecgTip}}</text>
+
+  <!-- 新功能 3：被检测人位置 -->
+  <button bindtap="getUserLocation" class="location-button">被检测人位置</button>
+  <text class="location-text">{{locationText}}</text>
 </view>
