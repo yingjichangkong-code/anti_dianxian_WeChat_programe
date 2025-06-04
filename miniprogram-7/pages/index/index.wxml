@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="title">抗癫痫报警</text>
+  <button bindtap="triggerAlert" class="alert-button">触发异常</button>
+  <text class="status">{{status}}</text>
+</view>
