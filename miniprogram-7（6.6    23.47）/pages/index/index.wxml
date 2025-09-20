@@ -1,0 +1,44 @@
+<view class="page-container">
+  <view class="header">
+    <text class="header-title">抗癫痫报警</text>
+    <text class="header-subtitle">实时守护您的安全</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">紧急操作</text>
+    <view class="button-group">
+      <button bindtap="triggerAlert" class="action-button emergency-btn">
+        <text>{{status}}</text>
+      </button>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-title">设备管理</text>
+    <view class="button-group">
+      <button bindtap="pairBluetooth" class="action-button">
+        <text>蓝牙配对</text>
+      </button>
+      <text class="status-text">{{bluetoothStatus}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-title">健康监测</text>
+    <view class="button-group">
+      <button bindtap="showECG" class="action-button secondary-btn">
+        <text>生理信号显示</text>
+      </button>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-title">位置信息</text>
+    <view class="button-group">
+      <button bindtap="getUserLocation" class="action-button secondary-btn">
+        <text>被检测人位置</text>
+      </button>
+      <text class="status-text">{{locationText}}</text>
+    </view>
+  </view>
+</view>

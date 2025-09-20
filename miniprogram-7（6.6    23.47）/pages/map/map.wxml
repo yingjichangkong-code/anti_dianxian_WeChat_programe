@@ -1,0 +1,16 @@
+<view class="map-container">
+  <text class="title">联系人位置</text>
+  <map
+    id="map"
+    longitude="{{longitude}}"
+    latitude="{{latitude}}"
+    scale="14"
+    markers="{{markers}}"
+    polylines="{{polylines}}"
+    show-location="true"
+    style="width: 100%; height: 500px;"
+  ></map>
+  <button bindtap="showDistanceModal" class="distance-button">查看距离</button>
+  <text class="tip">{{tip}}</text>
+  <text class="location-text">{{locationText}}</text>
+</view>

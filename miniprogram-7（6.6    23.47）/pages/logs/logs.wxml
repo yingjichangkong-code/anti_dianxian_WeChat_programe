@@ -1,0 +1,8 @@
+<view class="log-container">
+  <text class="title">报警日志</text>
+  <view wx:for="{{logs}}" wx:key="index" class="log-item">
+    <text>时间：{{item.time}}</text>
+    <text>位置：{{item.location}}</text>
+    <text>状态：{{item.status}}</text>
+  </view>
+</view>

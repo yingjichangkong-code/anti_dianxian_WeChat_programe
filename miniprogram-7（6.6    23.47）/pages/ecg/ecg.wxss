@@ -1,0 +1,31 @@
+.ecg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100px;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.tip {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}

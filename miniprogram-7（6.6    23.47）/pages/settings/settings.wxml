@@ -1,0 +1,6 @@
+<view class="settings-container">
+  <text class="title">设置</text>
+  <input placeholder="输入家属手机号" bindinput="inputPhone" value="{{familyPhone}}" class="input" />
+  <button bindtap="savePhone">保存</button>
+  <text class="saved-phone">已保存手机号: {{savedPhone}}</text>
+</view>

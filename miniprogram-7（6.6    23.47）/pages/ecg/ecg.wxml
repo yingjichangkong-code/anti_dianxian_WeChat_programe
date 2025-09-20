@@ -1,0 +1,7 @@
+<view class="ecg-container">
+  <text class="title">心电图波形</text>
+  <button bindtap="startWave" class="button" disabled="{{isRunning}}">启动</button>
+  <button bindtap="stopWave" class="button" disabled="{{!isRunning}}">停止</button>
+  <canvas type="2d" id="ecgCanvas" style="width: 100%; height: 300px;"></canvas>
+  <text class="tip">{{tip}}</text>
+</view>
